@@ -91,7 +91,7 @@
       },
       "UPSTREAM_REPO": {
         "description": "If you dont know this, Leave as it is",
-        "value": "https://github.com/Itz-mst-boy/mukhushi-music",
+        "value": "https://github.com/Itzmstboy/mukhushi-music",
         "required": true
       },
       "UPSTREAM_BRANCH": {
