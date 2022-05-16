@@ -30,7 +30,7 @@
         "required": true
       },
       "SUPPORT_GROUP": {
-        "description": "enter group link example:- https://t.me/Yaaro_ki_yaarii", 
+        "description": "enter group link example:- https://t.me/xd", 
         "value": "https://t.me/worldwide_friend_zone", 
         "required": false
       },  
@@ -91,7 +91,7 @@
       },
       "UPSTREAM_REPO": {
         "description": "If you dont know this, Leave as it is",
-        "value": "https://github.com/Itz-mst-boy/HeroMusicBot",
+        "value": "https://github.com/Itz-mst-boy/mukhushi-music",
         "required": true
       },
       "UPSTREAM_BRANCH": {
