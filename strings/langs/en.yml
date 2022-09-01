@@ -281,7 +281,7 @@ P_B_4 : "🎵 Play Playlist"
 PL_B_1 : "🚀 Play Playlist"
 PL_B_2 : "✚ Playlists"
 PL_B_3 : "✚ Additional"
-PL_B_4 : "📡 Play Mode"
+PL_B_4 : "📡 Oynatma Modu"
 PL_B_5 : "🔄 Del Whole Playlist"
 PL_B_6 : "↗️ Delete Playlist"
 PL_B_7 : "❗️ Yes, I'm sure. Delete it"
@@ -320,7 +320,7 @@ ST_B_26 : "🗑 Command Clean"
 
 #Song
 SG_B_1 : "↗️ Open Private Chat"
-SG_B_2 : "🔊 Audio"
+SG_B_2 : "🔊 Müzik"
 SG_B_3 : "🎥 Video"
 
 #Stats
