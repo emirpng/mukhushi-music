@@ -23,7 +23,7 @@ DELETEPLAYLIST_COMMAND : ["delplist"]
 
 # Tools
 QUEUE_COMMAND : ["sira","queue","cqueue", "player", "cplayer", "playing", "cplaying"]
-SONG_COMMAND : ["song", "video"]
+SONG_COMMAND : ["bul", "song", "video"]
 LYRICS_COMMAND : ["soz", "lyrics"]
 
 
