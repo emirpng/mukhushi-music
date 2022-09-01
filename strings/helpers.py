@@ -27,7 +27,7 @@ HELP_1 = """👑 **<u>Admin Komutları:</u>**
 
 
 
-HELP_2 = """✅<u>**Play Commands:**</u>
+HELP_2 = """✅ <u>**Oynatma Komutları:**</u>
 
 Available Commands = play , vplay , cplay
 
@@ -37,11 +37,12 @@ ForcePlay Commands = playforce , vplayforce , cplayforce
 **v** stands for video play.
 **force** stands for force play.
 
-/play or /vplay or /cplay  - Bot will start playing your given query on voice chat or Stream live links on voice chats.
+**/oynat veya /play** - Müziği sesli sohbette oynatır. **Örnek:** /oynat alan walker fade
 
-/playforce or /vplayforce or /cplayforce -  **Force Play** stops the current playing track on voice chat and starts playing the searched track instantly without disturbing/clearing queue.
+**/voynat veya /vplay** -  Videoyu sesli sohbette oynatır. **Örnek:** /voynat videoismi
 
-/channelplay [Chat username or id] or [Disable] - Connect channel to a group and stream music on channel's voice chat from your group.
+***/bul** - **[Müzik Adı]** veya **[Youtube Linki]** : Youtubedan İndirmek İstediğiniz Şarkıyı İndirebilirsiniz.
+(Örnek: /bul Neşet Ertaş Gönül Dağı)
 
 
 ✅**<u>Bot's Server Playlists:</u>**
