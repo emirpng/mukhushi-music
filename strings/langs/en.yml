@@ -209,7 +209,9 @@ lyrics_5 :
 lyrics_4 : "Uzun spam türlerinde şarkı sözü aramasından kaçınmak için aşağıdaki düğmeyi tıklayın ve aranılan şarkı sözlerini alın."
 
 #Ping
-ping_1 : "Ping!!!!"
+ping_1 : "🏓 **Pong!**"
+ping_2 : "{0} ɪs ᴡᴏʀᴋɪɴɢ ɢᴏᴏᴅ ᴡɪᴛʜ ᴀ ᴘɪɴɢ ᴏғ `{1}` ms.\n\nʙᴏᴛ's ᴜᴘᴛɪᴍᴇ ɪs {2} ᴀɴᴅ ʜᴀs ᴜsᴇᴅ ᴀ ᴛᴏᴛᴀʟ ᴏғ {3} sᴇʀᴠᴇʀ's sᴛᴏʀᴀɢᴇ. ᴄᴘᴜ ʟᴏᴀᴅ ɪs ᴀʙᴏᴜᴛ {4} ᴡɪᴛʜ ᴀ ᴄᴏɴsᴜᴍᴘᴛɪᴏɴ ᴏғ {5} ʀᴀᴍ. Py-Tgcalls ᴄʟɪᴇɴᴛ ɪs ᴀʟsᴏ ʜᴀᴠɪɴɢ ᴀ ɢᴏᴏᴅ ᴘɪɴɢ ᴏғ `{6}` ms."
+
 
 # Song
 song_1 : "YouTube'dan Müzik veya Video'yu yalnızca özel sohbette indirebilirsiniz. Lütfen beni özel sohbette başlat."
