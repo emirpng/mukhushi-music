@@ -39,7 +39,7 @@ STOP_COMMAND : ["dur", "son", "stop", "end", "cstop", "cend"]
 SKIP_COMMAND : ["atla", "skip", "cskip"]
 SHUFFLE_COMMAND : ["karistir", "shuffle", "cshuffle"]
 LOOP_COMMAND : ["dongu", "loop", "cloop"]
-SEEK_COMMAND : ["seek", "cseek", "seekback", "cseekback"]
+SEEK_COMMAND : ["ileri","seek", "cseek", "geri","seekback", "cseekback"]
 RESTART_COMMAND : ["reset", "restart"]
 
 # Sudo Users Commaands
