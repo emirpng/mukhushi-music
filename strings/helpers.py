@@ -60,6 +60,7 @@ HELP_3 = """🤖 <u>**Bot Komutları:**</u>
 
 **/sira** - Sırada olan müzik listesini görebilirsiniz."""
 
+
 HELP_4 = """✨ <u>**Extra Komutlar:**</u>
 
 **/start** - Botun Başlatma Panelini Gösterir. 
@@ -69,3 +70,10 @@ HELP_4 = """✨ <u>**Extra Komutlar:**</u>
 **/help** - Botun Yardım Menüsüne Ulaşırsınız.
 
 **/ping** - Ping Süresini CPU Ve RAM Kullanımına Bakabilirsiniz."""
+
+
+HELP_5 = """✅ <u>**Sudo Komutları:**</u>
+
+**/addsudo** - Sudo kullanıcısı ekler.
+
+**/delsudo** -  Sudo kullanıcısı siler."""
