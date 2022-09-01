@@ -62,6 +62,13 @@ admin_24 : "**Kullanım:**\n/loop [enable/disable] veya [1-10 arası sayı]\n\n*
 admin_25 : "Döngü, {0} tarafından **{1}** kez etkinleştirildi. Bot şimdi sesli sohbette çalmakta olan müziği **{1}** kez tekrarlayacak"
 admin_26 : "Döngü oynatma için lütfen 1-10 arasındaki sayıları kullanın"
 admin_27 : "Döngü Oynatma devre dışı bırakıldı"
+admin_28 : "**Komut Kullanımı:**\n/seek veya /seekback [saniye]"
+admin_29 : "Lütfen arama yapmak için 10-20-30 saniye gibi sayısal süre saniyelerini kullanın."
+admin_30 : "Şu anda oynatılan akışı ileri alamazsınız. Yalnızca atlanabilir veya durdurulabilir."
+admin_31 : "Bot, verilen sürenin yüksek olması nedeniyle ileri saramıyor. Daha düşük bir süre girmeniz ve ileri sardıktan sonra 10 saniyelik bir sürenin kaldığını hatırlamanız gerekir.\n\nŞu anda **{0}** dakika üzerinden **{1}** dakika oynatılıyor."
+admin_32 : "Lütfen Bekleyin... Devam eden akış aranıyor."
+admin_33 : "{0} Dakikaya kadar başarıyla ileri sarıldı."
+admin_34 : "Mevcut akış aranamadı."
 
 # Bot 
 # Start
