@@ -45,10 +45,11 @@ ForcePlay Commands = playforce , vplayforce , cplayforce
 (Örnek: /bul Neşet Ertaş Gönül Dağı)
 
 
-✅**<u>Bot's Server Playlists:</u>**
-/playlist  - Check Your Saved Playlist On Servers.
-/deleteplaylist - Delete any saved music in your playlist
-/play  - Start playing Your Saved Playlist from Servers."""
+✅ **<u>Oynatma Listeleri:</u>**
+
+**/playlist** - Oynatma listenizde hangi müziklerin olduğuna bakabilirsiniz.
+**/delplist** - Oynatma listenizden silmek istediğiniz müziği seçebilirsiniz.
+**/oynat** - Komutunu tek başına kullanırsanız: Oynatma Listeleri ekranına ulaşırsınız."""
 
 
 HELP_3 = """✅<u>**Bot Commands:**</u>
