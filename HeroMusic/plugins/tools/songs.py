@@ -17,6 +17,7 @@ from HeroMusic.utils.inline.song import song_markup
 
 # Command
 SONG_COMMAND = get_command("SONG_COMMAND")
+KING_COMMAND = get_command("KING_COMMAND")
 
 
 @app.on_message(
@@ -347,13 +348,13 @@ async def song_download_cb(client, CallbackQuery, _):
 
 
 @app.on_message(
-    filters.command(SONG_COMMAND)
+    filters.command(KING_COMMAND)
     & filters.private
     & ~filters.edited
     & ~BANNED_USERS
 )
 @language
-async def song_commad_private(client, message: Message, _):
+async def king_commad_private(client, message: Message, _):
     try:
         await CallbackQuery.answer("Downloading")
     except:
