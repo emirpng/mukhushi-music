@@ -321,7 +321,7 @@ async def song_download_cb(client, CallbackQuery, _):
                 mystic,
                 songaudio=True,
                 format_id=format_id,
-                title=title,
+                title = f"[🔸🔷 BirazdaMuzik 🔷🔸](https://t.me/BirazdaMuzik)",
             )
         except Exception as e:
             return await mystic.edit_text(_["song_9"].format(e))
