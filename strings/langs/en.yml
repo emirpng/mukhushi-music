@@ -210,7 +210,7 @@ lyrics_4 : "Uzun spam türlerinde şarkı sözü aramasından kaçınmak için a
 
 #Ping
 ping_1 : "🏓 **Pong!**"
-ping_2 : "{0} ɪs ᴡᴏʀᴋɪɴɢ ɢᴏᴏᴅ ᴡɪᴛʜ ᴀ ᴘɪɴɢ ᴏғ `{1}` ms.\n\nʙᴏᴛ's ᴜᴘᴛɪᴍᴇ ɪs {2} ᴀɴᴅ ʜᴀs ᴜsᴇᴅ ᴀ ᴛᴏᴛᴀʟ ᴏғ {3} sᴇʀᴠᴇʀ's sᴛᴏʀᴀɢᴇ. ᴄᴘᴜ ʟᴏᴀᴅ ɪs ᴀʙᴏᴜᴛ {4} ᴡɪᴛʜ ᴀ ᴄᴏɴsᴜᴍᴘᴛɪᴏɴ ᴏғ {5} ʀᴀᴍ. Py-Tgcalls ᴄʟɪᴇɴᴛ ɪs ᴀʟsᴏ ʜᴀᴠɪɴɢ ᴀ ɢᴏᴏᴅ ᴘɪɴɢ ᴏғ `{6}` ms."
+ping_2 : "**{0}**\n**Gecikme:** {1} **ms**\n**UpTime:** {2}\n**Depolama:** {3}\n**CPU:** {4}\n**RAM:** {5}\n**Python:** {6} **ms**"
 
 
 # Song
