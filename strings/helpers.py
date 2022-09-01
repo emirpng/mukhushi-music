@@ -52,53 +52,32 @@ ForcePlay Commands = playforce , vplayforce , cplayforce
 **/oynat** - Komutunu tek başına kullanırsanız: Oynatma Listeleri ekranına ulaşırsınız."""
 
 
-HELP_3 = """✅<u>**Bot Commands:**</u>
+HELP_3 = """🤖 <u>**Bot Komutları:**</u>
 
-/stats - Get Top 10 Tracks Global Stats, Top 10 Users of bot, Top 10 Chats on bot, Top 10 Played in a chat etc etc.
+**/stats** - Bottaki tüm istatistikleri görebilirsiniz. En çok müzik oynatan gruplar, kullanıcılar, en çok oynatılan müzikler ve daha fazlası...
 
-/sudolist - Check Sudo Users of Yukki Music Bot
+**/sudolist** - Yardım istemek için bottaki sudo kullanıcılarına ulaşabilirsiniz.
 
-/lyrics [Music Name] - Searches Lyrics for the particular Music on web.
+**/soz [Müzik Adı]** - Sözlerine bakmak istediğiniz şarkıyı arayabilirsiniz.
 
-/song [Track Name] or [YT Link] - Download any track from youtube in mp3 or mp4 formats.
+***/bul** - **[Müzik Adı]** veya **[Youtube Linki]** : Youtubedan İndirmek İstediğiniz Şarkıyı İndirebilirsiniz.
+(Örnek: /bul Neşet Ertaş Gönül Dağı)
 
-/player -  Get a interactive Playing Panel.
+***/vbul** - **[Müzik Adı]** veya **[Youtube Linki]** : Youtubedan İndirmek İstediğiniz Videoyu İndirebilirsiniz.
+(Örnek: /vbul Neşet Ertaş Gönül Dağı)
 
-**c** stands for channel play.
+**/sira** - Sırada olan müzik listesini görebilirsiniz."""
 
-/queue or /cqueue- Check Queue List of Music."""
+HELP_4 = """✨ <u>**Extra Komutlar:**</u>
 
-HELP_4 = """✅<u>**Extra  Commands:**</u>
-/start - Start the Music Bot.
-/help  - Get Commands Helper Menu with detailed explanations of commands.
-/ping- Ping the Bot and check Ram, Cpu etc stats of Bot.
+**/start** - Botun Başlatma Panelini Gösterir. 
 
-✅<u>**Group Settings:**</u>
-/settings - Get a complete group's settings with inline buttons
+**/ayarlar** - Ayarlar Menüsüne Ulaşabilirsiniz.
 
-🔗 **Options in Settings:**
+**/help** - Botun Yardım Menüsüne Ulaşırsınız.
 
-1️⃣ You can set **Audio Quality** you want to stream on voice chat.
+**/ping** - Ping Süresini CPU Ve RAM Kullanımına Bakabilirsiniz."""
 
-2️⃣ You can set **Video Quality** you want to stream on voice chat.
-
-3️⃣ **Auth Users**:- You can change admin commands mode from here to everyone or admins only. If everyone, anyone present in you group will be able to use admin commands(like /skip, /stop etc)
-
-4️⃣ **Clean Mode:** When enabled deletes the bot's messages after 5 mins from your group to make sure your chat remains clean and good.
-
-5️⃣ **Command Clean** : When activated, Bot will delete its executed commands (/play, /pause, /shuffle, /stop etc) immediately.
-
-6️⃣ **Play Settings:**
-
-/playmode - Get a complete play settings panel with buttons where you can set your group's play settings. 
-
-<u>Options in playmode:</u>
-
-1️⃣ **Search Mode** [Direct or Inline] - Changes your search mode while you give /play mode. 
-
-2️⃣ **Admin Commands** [Everyone or Admins] - If everyone, anyone present in you group will be able to use admin commands(like /skip, /stop etc)
-
-3️⃣ **Play Type** [Everyone or Admins] - If admins, only admins present in group can play music on voice chat."""
 
 HELP_5 = """🔰**<u>ADD & REMOVE SUDO USERS :</u>**
 /addsudo [Username or Reply to a user]
