@@ -327,7 +327,7 @@ async def song_download_cb(client, CallbackQuery, _):
             return await mystic.edit_text(_["song_9"].format(e))
         med = InputMediaAudio(
             media=filename,
-            caption = "deneme",
+            caption = f"[🔸🔷 BirazdaMuzik 🔷🔸](https://t.me/BirazdaMuzik)",
             thumb=thumb_image_path,
             title=title,
             performer=x["uploader"],
