@@ -276,7 +276,7 @@ async def song_download_cb(client, CallbackQuery, _):
     yturl = f"https://www.youtube.com/watch?v={vidid}"
     with yt_dlp.YoutubeDL({"quiet": True}) as ytdl:
         x = ytdl.extract_info(yturl, download=False)
-    title = (x["title"]).title()
+    title = f"[🔸🔷 BirazdaMuzik 🔷🔸](https://t.me/BirazdaMuzik)"
     title = re.sub("\W+", " ", title)
     thumb_image_path = await CallbackQuery.message.download()
     duration = x["duration"]
@@ -321,7 +321,7 @@ async def song_download_cb(client, CallbackQuery, _):
                 mystic,
                 songaudio=True,
                 format_id=format_id,
-                title = f"[🔸🔷 BirazdaMuzik 🔷🔸](https://t.me/BirazdaMuzik)",
+                title=title,
             )
         except Exception as e:
             return await mystic.edit_text(_["song_9"].format(e))
@@ -329,7 +329,7 @@ async def song_download_cb(client, CallbackQuery, _):
             media=filename,
             caption=title,
             thumb=thumb_image_path,
-            title = f"[🔸🔷 BirazdaMuzik 🔷🔸](https://t.me/BirazdaMuzik)",
+            title=title,
             performer=x["uploader"],
         )
         await mystic.edit_text(_["song_11"])
