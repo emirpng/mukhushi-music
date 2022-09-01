@@ -7,36 +7,24 @@
 #
 # All rights reserved.
 
-HELP_1 = """✅**<u>Admin Commands:</u>**
+HELP_1 = """👑 **<u>Admin Komutları:</u>**
 
 **c** stands for channel play.
 
-/pause or /cpause - Pause the playing music.
-/resume or /cresume- Resume the paused music.
-/mute or /cmute- Mute the playing music.
-/unmute or /cunmute- Unmute the muted music.
-/skip or /cskip- Skip the current playing music.
-/stop or /cstop- Stop the playing music.
-/shuffle or /cshuffle- Randomly shuffles the queued playlist.
-/seek or /cseek - Forward Seek the music to your duration
-/seekback or /cseekback - Backward Seek the music to your duration
-/restart - Restart bot for your chat .
+**/durdur** - Müziği duraklatır.
+**/devam** - Müziği devam ettirir.
+**/atla** - Çalan müziği atlar.
+**/son veya /dur** - Sesli sohbeti bitirir.
+**/karistir** - Sıraya aldığınız parçaları karışık şekilde oynatır.
+**/ileri** - Örneğin /ileri 15 yaparsanız, müzik 15 saniye ileri alınır.
+**/geri** - Örneğin /geri 15 yaparsanız, müzik 15 saniye geriye alınır.
+**/restart** - Botu yeniden başlatın.
 
 
-✅<u>**Specific Skip:**</u>
-/skip or /cskip [Number(example: 3)] 
-    - Skips music to a the specified queued number. Example: /skip 3 will skip music to third queued music and will ignore 1 and 2 music in queue.
+🔁 <u>**Döngü Modu:**</u>
+**/dongu** - Çalan Müziği Döngüye Alıp Tekrar Oynatır. 
+(Örnek: /dongu 3 İle Seste Çalan Müziği 3 Kere Daha Oynatır.)"""
 
-✅<u>**Loop Play:**</u>
-/loop or /cloop [enable/disable] or [Numbers between 1-10] 
-    - When activated, bot loops the current playing music to 1-10 times on voice chat. Default to 10 times.
-
-✅<u>**Auth Users:**</u>
-Auth Users can use admin commands without admin rights in your chat.
-
-/auth [Username] - Add a user to AUTH LIST of the group.
-/unauth [Username] - Remove a user from AUTH LIST of the group.
-/authusers - Check AUTH LIST of the group."""
 
 
 HELP_2 = """✅<u>**Play Commands:**</u>
