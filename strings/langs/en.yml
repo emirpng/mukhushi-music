@@ -151,17 +151,17 @@ play_16 : "Parça ayrıntıları getirilemedi. başka şarkı dene."
 
 
 #Gbanned
-gban_1 : "You want to gban yourself? How Fool!"
-gban_2 : "Should i block myself? Lol"
-gban_3 : "You want to block a sudo user?"
-gban_4 : "{0} is already **gbanned** from the bot."
-gban_5 : "**Initializing Gobal Ban on {0}**\n\nExpected Time : {1}."
-gban_6 : "**Gbanned Successfully**\n\nBanned **{0}** from **{1}** chats."
-gban_7 : "{0} is not **gbanned **yet from the bot."
-gban_8 : "**Ungbanning {0}**\n\nExpected Time : {1}."
-gban_9 : "**UnGbanned Successfully**\n\nUnbanned **{0}** in **{1}** chats."
-gban_10 : "No Gbanned Users Found."
-gban_11 : "Please wait a while.. Fetching Gbanned users list"
+gban_1 : "⛔️ **Bot yöneticilerini yasaklayamam!**"
+gban_2 : "Kendimi neden yasaklayayım ki?"
+gban_3 : "⛔️ **Bot sudo kullanıcılarını yasaklayamam!**"
+gban_4 : "**{0} zaten yasaklanmış.**"
+gban_5 : "**{0} üzerinde küresel yasak başlatılıyor.**\n\nTahmini süre:** {1}."
+gban_6 : "**✅ Yasaklama Başarılı**\n\n**{0}**, toplam **{1}** gruptan yasaklandı."
+gban_7 : "**{0} henüz bottan yasaklanmadı.**"
+gban_8 : "**{0} Yasaklamaları kaldırılıyor.**\n\nTahmini süre: {1}."
+gban_9 : "**✅ Yasak Kaldırma Başarılı**\n\n**{0}**, toplam **{1}** gruptan yasağı kaldırıldı."
+gban_10 : "Yasaklı kullanıcı bulunamadı."
+gban_11 : "**Lütfen bekleyin, yasaklı kullanıcı listesi getiriliyor..**"
 
 
 #Playlist
