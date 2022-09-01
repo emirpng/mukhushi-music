@@ -18,29 +18,29 @@ STREAM_COMMAND : ["stream", "cstream", "streamforce"]
 
 #Playlists Command
 PLAYLIST_COMMAND : ["playlist"]
-DELETEPLAYLIST_COMMAND : ["deleteplaylist"]
+DELETEPLAYLIST_COMMAND : ["delplist"]
 
 
 # Tools
-QUEUE_COMMAND : ["queue","cqueue", "player", "cplayer", "playing", "cplaying"]
+QUEUE_COMMAND : ["sira","queue","cqueue", "player", "cplayer", "playing", "cplaying"]
 SONG_COMMAND : ["song", "video"]
-LYRICS_COMMAND : ["lyrics"]
+LYRICS_COMMAND : ["soz", "lyrics"]
 
 
 # Admin Commands
-AUTH_COMMAND : ["auth"]
-UNAUTH_COMMAND : ["unauth"]
-AUTHUSERS_COMMAND : ["authusers"]
-PAUSE_COMMAND : ["pause", "cpause"]
-RESUME_COMMAND : ["resume", "cresume"]
+AUTH_COMMAND : ["yetki", "auth"]
+UNAUTH_COMMAND : ["yetkisil", "unauth"]
+AUTHUSERS_COMMAND : ["ylist", "authusers"]
+PAUSE_COMMAND : ["durdur", "pause", "cpause"]
+RESUME_COMMAND : ["devam", "resume", "cresume"]
 MUTE_COMMAND : ["mute", "cmute"]
 UNMUTE_COMMAND : ["unmute", "cunmute"]
-STOP_COMMAND : ["stop", "end", "cstop", "cend"]
-SKIP_COMMAND : ["skip", "cskip"]
-SHUFFLE_COMMAND : ["shuffle", "cshuffle"]
-LOOP_COMMAND : ["loop", "cloop"]
+STOP_COMMAND : ["dur", "son", "stop", "end", "cstop", "cend"]
+SKIP_COMMAND : ["atla", "skip", "cskip"]
+SHUFFLE_COMMAND : ["karistir", "shuffle", "cshuffle"]
+LOOP_COMMAND : ["dongu", "loop", "cloop"]
 SEEK_COMMAND : ["seek", "cseek", "seekback", "cseekback"]
-RESTART_COMMAND : ["restart"]
+RESTART_COMMAND : ["reset", "restart"]
 
 # Sudo Users Commaands
 
