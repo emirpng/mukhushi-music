@@ -34,6 +34,11 @@
         "value": "https://t.me/worldwide_friend_zone", 
         "required": false
       },  
+      "SUPPORT_CHANNEL": {
+        "description": "enter group link example:- https://t.me/xd", 
+        "value": "https://t.me/worldwide_friend_zone", 
+        "required": false
+      },  
       "MONGO_DB_URI": {
         "description": "Get a mongodb url from https://cloud.mongodb.com . You can leave it blank if you want , bot will use Mukhushi database for you.",
         "value": "",
