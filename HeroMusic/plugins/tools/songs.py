@@ -340,6 +340,7 @@ async def song_download_cb(client, CallbackQuery, _):
         )
         try:
             await CallbackQuery.edit_message_media(media=med)
+            await CallbackQuery.send_message_media(media=med)
         except Exception as e:
             print(e)
             return await mystic.edit_text(_["song_10"])
